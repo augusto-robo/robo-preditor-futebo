@@ -6,7 +6,7 @@ def prever_resultado(time_casa, time_fora):
         modelo_gols = joblib.load("ROBO/dados/modelo_gols.pkl")
         modelo_cantos = joblib.load("ROBO/dados/modelo_cantos.pkl")
     except:
-        return "⚠️ Modelos não encontrados."
+        return " encontrados."
 
     mapa_times = {
         "al ahly": 1, "barcelona": 2, "bayern munique": 3, "chelsea": 4,
